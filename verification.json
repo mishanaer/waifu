@@ -1,0 +1,264 @@
+{
+  "source": "/Applications/Animates.app",
+  "app": "/Applications/Animates Dev.app",
+  "assets": [
+    {
+      "path": "Contents/Resources/Data/Resources/unity default resources",
+      "sha256": "4c1f576076250b2225397e576da5d4f3eb0280fbcea1955c999218ba115f65f3",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/Resources/unity_builtin_extra",
+      "sha256": "13ba481f02bde535c0ffc1d4b875b7ee5cbc5136a820563648befd9209deece2",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/RuntimeInitializeOnLoads.json",
+      "sha256": "2e36aa7c775b4697fb48cb89fa500a06739c916f861afe74c7e8c4679a5c8e9d",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/ScriptingAssemblies.json",
+      "sha256": "4afcf41928af611baae06eaf0b2896d9e731e7e1d607e9eeccb6997c311ca193",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/StreamingAssets/aa/AddressablesLink/link.xml",
+      "sha256": "91342883045002f496b0a453fa235833c552f5a37996193aee9e3785e68726cf",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/StreamingAssets/aa/StandaloneOSX/979ebaa5a17ed2834a47fa1373510580_monoscripts_2e1c5e951c3edec1dff3b98c33fc322e_f28bfefb.bundle",
+      "sha256": "2e288b197d3910df773fecb9510aeb51e790c8a71dfdee5b8a3d15384605d91c",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/StreamingAssets/aa/StandaloneOSX/979ebaa5a17ed2834a47fa1373510580_unitybuiltinassets_18c47a9c7b69a986ee9a1178d8688a16_771ef07c.bundle",
+      "sha256": "6825fc9a267197188ef1dbe026278e59bb249d7dd83df05b42d9c1b26174cb4c",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/StreamingAssets/aa/StandaloneOSX/defaultlocalgroup_assets_all_3c23e24935349f7af58ba840a9f3b3aa_107e4fc8.bundle",
+      "sha256": "af26e949c6d92cd7b0f2d1af99c76fb035f66973562019705e0b9958052b5a75",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/StreamingAssets/aa/StandaloneOSX/nixie_scenes_all_2588c09682cd28a01214f5a970432085_3ace8c68.bundle",
+      "sha256": "1c4a33d2301e0b8d640bfd32d3882b61e912778dcd41ae712a40aac701565a7d",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/StreamingAssets/aa/StandaloneOSX/yuki_scenes_all_3e56eb1f8fbd3c76ec4f1c648030b4fb_71f4814b.bundle",
+      "sha256": "e689b37057e7b138fc6b6b7f5362597ef2faf372472ffb5a67693a1d0782f8ad",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/StreamingAssets/aa/catalog.bin",
+      "sha256": "d6bd99202c0095dbcb433f8e1b4107e3606827a699219b50a23669fa618ad52e",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/StreamingAssets/aa/catalog.hash",
+      "sha256": "af4ca3f32d4cca12bf3a63867733b001a7329aac232a8d41b930bdf0e2da61ca",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/StreamingAssets/aa/settings.json",
+      "sha256": "594175390a18189acd0b02b415b89540e0e6ea0f29da43fa1d54112407786ee7",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/StreamingAssets/login-success/bg-bg-tf.jpg",
+      "sha256": "c49d777ca2a9722df326c66930e887fda2dafd267e978f4100e0ff5c36e70bd6",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/StreamingAssets/login-success/logo.svg",
+      "sha256": "c685a195b407bbc9ea9930286a55cb8213e389db6f0932b57e8d56c91be2726a",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/app.info",
+      "sha256": "5444980dcfadb48a63c943409a288aa36a3ccf17e41adb1b571bc0a7171c7eb4",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/boot.config",
+      "sha256": "5aa8530f53ccf0f179730a3628316e6d576207d8d6ad3d25b1761895fa7e4b23",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/globalgamemanagers",
+      "sha256": "03d17755c42f6aba1103dba6f1e01c738345536e70d866c828001fab052258a2",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/globalgamemanagers.assets",
+      "sha256": "4958f618f8c656539d7a8a54094c454d2b8eeb2423b5a881618e71de14834d7f",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/globalgamemanagers.assets.resS",
+      "sha256": "bafa469b0e1a4c7cc190f996cd7c497105c654934ae00104f5b53a4841b571d1",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Metadata/global-metadata.dat",
+      "sha256": "c750c73bc7c2e04d50bf566e4d06523db5e073c67db8e5c9cfe05f99183f1a14",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/Newtonsoft.Json.dll-resources.dat",
+      "sha256": "531de49e73ddea25554c9f656f54da2a665946f3fec57048e0cfe3b9e49b03f8",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/Sentry.System.Buffers.dll-resources.dat",
+      "sha256": "439209737decff0ed26e04cd94c5a7839d9a16438881af6f457b22dabd9b3de9",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/Sentry.System.Collections.Immutable.dll-resources.dat",
+      "sha256": "0ea326960e489d77ed69ea2f6cb3f7f8df448d85b7107895f10d917373221bf4",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/Sentry.System.Memory.dll-resources.dat",
+      "sha256": "7b1e50a9a2f05306435e6994a381a4adffbe78a4fdaf6bf62e8904d0748ed5f1",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/Sentry.System.Numerics.Vectors.dll-resources.dat",
+      "sha256": "551105528683ba0939a2903de68871a6d5f48b4f11d093e7a8e10b7537735240",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/Sentry.System.Reflection.Metadata.dll-resources.dat",
+      "sha256": "b1d4250aaef6c0eb5bca6ada41b6caf95b4a70679c566eb98456ad9d7ab5716e",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/Sentry.System.Text.Encodings.Web.dll-resources.dat",
+      "sha256": "9d9b62c9034606cd14cabc86e8d177f58fdcccb4d3abe5cc03c00d43ce6b60ff",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/Sentry.System.Text.Json.dll-resources.dat",
+      "sha256": "2dfd43df2bc32562110cfec91e6860d0c13c61ca785520ae083478d5e9cb84f5",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/System.Data.dll-resources.dat",
+      "sha256": "98a7950ec6de3242c2e190dfa630188dfa32511a125542b94baa952d1c757d49",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/System.Drawing.dll-resources.dat",
+      "sha256": "7c33aa707bc3fdc83991b81a97d6fc622b140762a767300f08f616c2c0a91255",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/System.Text.Encodings.Web.dll-resources.dat",
+      "sha256": "92b408fe6fb1381f4d001dc78cc94d35d3cbb36314fa61b70083fdc01bbafb1d",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/System.Text.Json.dll-resources.dat",
+      "sha256": "e444871eb5f324abc80344ccc09ce03c2926c5d17abd2cd9133357c89665ff13",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Resources/mscorlib.dll-resources.dat",
+      "sha256": "c5baa176a5b72cd545266340e42102d393a5e43d38c95796bc828918bb95277f",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/level0",
+      "sha256": "67180d16f768b222076a702a817dc660f64e8c45e991f29138ec0b4a6d81d5c4",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/resources.assets",
+      "sha256": "69a02bc6a5bcf8e6a8d33f79b2e03fd74bb8d75824161e089ab429cb00dc4c54",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/resources.assets.resS",
+      "sha256": "b091ea96c3b06dff28c5cc13de16f3a9866f89fa8ac9042c3443ee99030d1f54",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/Data/sharedassets0.assets",
+      "sha256": "f4bedaf1737eef77c4b0e01846d5bbe3cfa685f8aa7fa2650175ea271f68c9af",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/bundles/aen.bundle",
+      "sha256": "c952b4184906a01d2ef58a7660e8d4fa1e0190a287435163c0a4b7938790694c",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/bundles/apr.bundle",
+      "sha256": "ed78a59770e2a1e073e397f3ec4b9da4f08851c5838f59dd396a87a19f8e4764",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/bundles/bdc.bundle",
+      "sha256": "397befc3bed9929e13e9a43f5884e42ff8bcb4ae9b5c5463258beac50450550b",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/bundles/bdn.bundle",
+      "sha256": "51e8ec94d452478a7e424db478d10e1f1e54859f8554add0758389f38fc2308c",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/bundles/bem.bundle",
+      "sha256": "07ce1df8d9075de72cfaba0d6a289ae04d94234dc0dd73827bc9cfad64b4e012",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/bundles/ben.bundle",
+      "sha256": "187e3797fb25d2f25ec472cf01fe652194617bf1e343d6e4f2a51d4c34664220",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/bundles/bpp.bundle",
+      "sha256": "229f601c2fb729dbb038b5e190a7aa4441fea390fc94a36ccd411a26fc282a23",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/bundles/fdn.bundle",
+      "sha256": "884feae260c6a831cc74c8334fe1df7cc0f65fb23defb50d26ee9cd417fcd5bf",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/bundles/ib2.bundle",
+      "sha256": "779c303a4debcd663216f8fa841d376aad43a36026da1e2afbf8632af845f75b",
+      "identical": true
+    },
+    {
+      "path": "Contents/Resources/bundles/ib5.bundle",
+      "sha256": "ead39383d8dfd0366fe0c16131e5e5fc9f24baf597d1d4adc63d8a4f417cdee6",
+      "identical": true
+    }
+  ],
+  "executableCode": [
+    {
+      "path": "Contents/Frameworks/UnityPlayer.dylib",
+      "sections": {
+        "__text": "86539ab3c1d752eaf6e27437f7f588ff9e51612eb4aa7261e3ba9ee9ebb19963"
+      },
+      "identical": true
+    },
+    {
+      "path": "Contents/Frameworks/GameAssembly.dylib",
+      "sections": {
+        "__text": "cd1d0f9f6f2b1caf8c737fa655f56f07b0226d87d3831d1597303f568017d124",
+        "il2cpp": "af77657f1fc1a1598e99461d214276beace1c9a21e02a39d69f9729d73825d8f"
+      },
+      "identical": true
+    }
+  ],
+  "passed": true
+}

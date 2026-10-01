@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-09-16T15:35:21.037469",
+  "characters": [
+    {
+      "sceneId": "Yuki",
+      "nativeLoadConfirmed": true,
+      "effects": 21,
+      "cameras": 6,
+      "backgrounds": 2
+    },
+    {
+      "sceneId": "Nixie",
+      "nativeLoadConfirmed": true,
+      "effects": 4,
+      "cameras": 6,
+      "backgrounds": 2
+    },
+    {
+      "sceneId": "Bot",
+      "nativeLoadConfirmed": true,
+      "effects": 13,
+      "cameras": 6,
+      "backgrounds": 2
+    },
+    {
+      "sceneId": "Raccoon",
+      "nativeLoadConfirmed": true,
+      "effects": 8,
+      "cameras": 6,
+      "backgrounds": 2
+    },
+    {
+      "sceneId": "Jareth",
+      "nativeLoadConfirmed": true,
+      "effects": 4,
+      "cameras": 6,
+      "backgrounds": 2
+    },
+    {
+      "sceneId": "Ani",
+      "nativeLoadConfirmed": true,
+      "effects": 11,
+      "cameras": 6,
+      "backgrounds": 2
+    },
+    {
+      "sceneId": "Mika",
+      "nativeLoadConfirmed": true,
+      "effects": 10,
+      "cameras": 6,
+      "backgrounds": 2
+    }
+  ],
+  "loadSequence": [
+    "Yuki",
+    "Bot",
+    "Raccoon",
+    "Jareth",
+    "Ani",
+    "Mika",
+    "Nixie"
+  ],
+  "effectsInvoked": [
+    "confused",
+    "popcorn",
+    "phone",
+    "love",
+    "excitement"
+  ],
+  "errors": [],
+  "passed": true
+}

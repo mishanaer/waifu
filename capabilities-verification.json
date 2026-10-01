@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-09-16T16:58:52.614860",
+  "panel": {
+    "count": 1,
+    "tabs": [
+      "Эффекты",
+      "Образ",
+      "Движения",
+      "Мимика",
+      "Речь",
+      "Сцена"
+    ],
+    "characterPickerAlwaysVisible": true
+  },
+  "characters": "See characters-verification.json: all 7 native scenes previously loaded successfully",
+  "verifiedMechanisms": {
+    "mikaHolidayOutfit": "Actual native outfit UUID changed to bf0fe709-e465-41fe-a7aa-d7d2d7055ebb",
+    "nixieDance": "Native parameter and active body/face dance states observed",
+    "animatorPlay": "Jareth Base Layer.Dance passed native HasState and Play returned without exception",
+    "localSpeech": "Jareth: 86381 samples at 24000 Hz, face/body success:1, SpeechComplete and AudioComplete",
+    "aniFace": {
+      "mappedChannels": 52,
+      "jawOpenActualPercent": 99.983,
+      "smileActualPercent": {
+        "MouthSmileRight": 99.99388122558594,
+        "MouthSmileLeft": 99.993896484375
+      },
+      "visualVerification": [
+        "mouth opened",
+        "smile visible"
+      ]
+    },
+    "review": "Original StartReview, PlayReview, StopReview invoked without exception"
+  },
+  "limits": [
+    "Only costumes and hairstyles present in the original scene inventory are exposed. Ani has 1 outfit and 1 hairstyle.",
+    "Nixie second outfit resource missing from this version Addressables catalog.",
+    "Face sliders expose channels mapped to the original 52-channel animation pipeline; these are not additional packaged emotion clips.",
+    "Hair color UI only enabled if original outfitColorController exists; not visually verified in this pass.",
+    "No account/chat integration or Unity Editor sources."
+  ]
+}

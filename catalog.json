@@ -1,0 +1,872 @@
+{
+  "yuki": {
+    "sceneId": "Yuki",
+    "effects": [
+      "popcorn",
+      "stop_popcorn",
+      "joystick",
+      "stop_joystick",
+      "newspaper",
+      "stop_newspaper",
+      "peace",
+      "phone",
+      "stop_phone",
+      "listening",
+      "stop_listening",
+      "hello",
+      "yes",
+      "no",
+      "kiss",
+      "typing",
+      "stop_typing",
+      "love",
+      "excitement",
+      "angry",
+      "sad"
+    ],
+    "cameras": [
+      {
+        "index": 0,
+        "name": "FollowCamera"
+      },
+      {
+        "index": 1,
+        "name": "CloseCamera"
+      },
+      {
+        "index": 2,
+        "name": "PIPCamera"
+      },
+      {
+        "index": 3,
+        "name": "SPIPCamera"
+      },
+      {
+        "index": 4,
+        "name": "BackgroundCamera"
+      },
+      {
+        "index": 5,
+        "name": "HoloCamera"
+      }
+    ],
+    "backgrounds": [
+      {
+        "index": 0,
+        "name": "Default Background"
+      },
+      {
+        "index": 1,
+        "name": "TimeOfDay"
+      }
+    ],
+    "wardrobe": {
+      "outfits": [
+        {
+          "id": "d2b41403-6e5b-420c-863c-2a1b30245e6d",
+          "assetGuid": "79df4207e6c8c7b47bd7e254fb9d065f",
+          "name": "Yuki · 1"
+        }
+      ],
+      "hairs": [
+        {
+          "id": "e81e3505-a288-44a9-9ef2-bf54f1093401",
+          "assetGuid": "5c92d8c9b7ae24647aaa1d15806b99e5",
+          "name": "Yuki · 1"
+        }
+      ]
+    },
+    "animatorStates": [
+      "Base Layer.AnnoyedHandLeft",
+      "Base Layer.AnnoyedHandRight",
+      "Base Layer.AnnoyedHead",
+      "Base Layer.AnnoyedLegLeft",
+      "Base Layer.AnnoyedLegRight",
+      "Base Layer.AnnoyedLight",
+      "Base Layer.AnnoyedPants",
+      "Base Layer.Hello",
+      "Base Layer.Idle",
+      "Base Layer.Joystick",
+      "Base Layer.Kiss",
+      "Base Layer.Listening",
+      "Base Layer.Newspaper_Idle",
+      "Base Layer.No",
+      "Base Layer.Peace",
+      "Base Layer.Phone",
+      "Base Layer.Phone Typing",
+      "Base Layer.Popcorn",
+      "Base Layer.Popcorn Speaking",
+      "Base Layer.Tapping_End",
+      "Base Layer.Tapping_Start",
+      "Base Layer.Yes",
+      "Base Layer.dance_120bpm",
+      "Base Layer.dance_60_bpm",
+      "Base Layer.dance_90bpm",
+      "Effects blendshapes.Empty",
+      "Effects blendshapes.Yuki_Angry_With_Mouth"
+    ],
+    "animatorParams": [
+      {
+        "id": "listening",
+        "boolParamName": "Listening",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "listening"
+      },
+      {
+        "id": "popcorn",
+        "boolParamName": "Popcorn",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "popcorn"
+      },
+      {
+        "id": "newspaper",
+        "boolParamName": "Newspaper",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "newspaper"
+      },
+      {
+        "id": "joystick",
+        "boolParamName": "Joystick",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "joystick"
+      },
+      {
+        "id": "phone",
+        "boolParamName": "Phone",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "phone"
+      },
+      {
+        "id": "peace",
+        "boolParamName": "Peace",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "peace"
+      },
+      {
+        "id": "annoyed_light",
+        "boolParamName": "AnnoyedLight",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "annoyed_light"
+      },
+      {
+        "id": "annoyed_pants",
+        "boolParamName": "AnnoyedPants",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "annoyed_pants"
+      },
+      {
+        "id": "typing",
+        "boolParamName": "Typing",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "typing"
+      },
+      {
+        "id": "speaking",
+        "boolParamName": "Speaking",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "speaking"
+      },
+      {
+        "id": "hello",
+        "boolParamName": "Hello",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "hello"
+      },
+      {
+        "id": "kiss",
+        "boolParamName": "Kiss",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "kiss"
+      },
+      {
+        "id": "yes",
+        "boolParamName": "Yes",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "yes"
+      },
+      {
+        "id": "no",
+        "boolParamName": "No",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "no"
+      },
+      {
+        "id": "annoyed_head",
+        "boolParamName": "AnnoyedHead",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "annoyed_head"
+      },
+      {
+        "id": "annoyed_leg_right",
+        "boolParamName": "AnnoyedLegRight",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "annoyed_leg_right"
+      },
+      {
+        "id": "annoyed_leg_left",
+        "boolParamName": "AnnoyedLegLeft",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "annoyed_leg_left"
+      },
+      {
+        "id": "annoyed_hand_right",
+        "boolParamName": "AnnoyedHandRight",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "annoyed_hand_right"
+      },
+      {
+        "id": "annoyed_hand_left",
+        "boolParamName": "AnnoyedHandLeft",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "annoyed_hand_left"
+      },
+      {
+        "id": "angry",
+        "boolParamName": "Angry",
+        "autoResetIfStateNotReached": 1,
+        "stateId": "angry"
+      },
+      {
+        "id": "dance_bmp_60",
+        "boolParamName": "DanceBmp60",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "DanceBmp60"
+      },
+      {
+        "id": "dance_bmp_90",
+        "boolParamName": "DanceBmp90",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "DanceBmp90"
+      },
+      {
+        "id": "dance_bmp_120",
+        "boolParamName": "DanceBmp120",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "DanceBmp120"
+      }
+    ],
+    "animationConfig": {
+      "bodyDenoiseSteps": 4,
+      "faceDenoiseSteps": 4,
+      "animationStyle": 8,
+      "faceAnimationStyle": 23
+    }
+  },
+  "nixie": {
+    "sceneId": "Nixie",
+    "effects": [
+      "phone",
+      "stop_phone",
+      "typing",
+      "stop_typing"
+    ],
+    "cameras": [
+      {
+        "index": 0,
+        "name": "FollowCamera"
+      },
+      {
+        "index": 1,
+        "name": "CloseCamera"
+      },
+      {
+        "index": 2,
+        "name": "PIPCamera"
+      },
+      {
+        "index": 3,
+        "name": "SPIPCamera"
+      },
+      {
+        "index": 4,
+        "name": "BackgroundCamera"
+      },
+      {
+        "index": 5,
+        "name": "HoloCamera"
+      }
+    ],
+    "backgrounds": [
+      {
+        "index": 0,
+        "name": "Default Background"
+      },
+      {
+        "index": 1,
+        "name": "TimeOfDay"
+      }
+    ],
+    "wardrobe": {
+      "outfits": [
+        {
+          "id": "69f46e88-ef31-4850-bead-3ea81e0745bb",
+          "assetGuid": "6e40613d31d2bd7448503199b52fe899",
+          "name": "Nixie · 1"
+        },
+        {
+          "id": "1bdf048f-b8c6-4738-b23e-1b48ba732f8f",
+          "assetGuid": "033ff1eaff1d73148b0bc4f5781de404",
+          "name": "Nixie · 2",
+          "available": false,
+          "reason": "Ресурс отсутствует в каталоге Unity этой версии"
+        }
+      ],
+      "hairs": [
+        {
+          "id": "a48c85e3-4a2c-4d25-acaf-c279721f5bfb",
+          "assetGuid": "adef2e64ae43f8140ad5a3b372d29fdb",
+          "name": "Nixie · 1"
+        }
+      ]
+    },
+    "animatorStates": [
+      "Base Layer.Idle",
+      "Base Layer.Nixie_Dance",
+      "Base Layer.Phone",
+      "Base Layer.Phone Typing",
+      "Base Layer.Tapping_End",
+      "Base Layer.Tapping_Start"
+    ],
+    "animatorParams": [
+      {
+        "id": "phone",
+        "boolParamName": "Phone",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "typing",
+        "boolParamName": "Typing",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "dance",
+        "boolParamName": "Dance",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "dance"
+      }
+    ],
+    "animationConfig": {
+      "bodyDenoiseSteps": 4,
+      "faceDenoiseSteps": 4,
+      "animationStyle": 76,
+      "faceAnimationStyle": 24
+    }
+  },
+  "bot": {
+    "sceneId": "Bot",
+    "effects": [
+      "love",
+      "excitement",
+      "confused",
+      "stunned",
+      "embarrassed",
+      "cheerful",
+      "sad",
+      "angry",
+      "shocked",
+      "phone",
+      "stop_phone",
+      "typing",
+      "stop_typing"
+    ],
+    "cameras": [
+      {
+        "index": 0,
+        "name": "FollowCamera"
+      },
+      {
+        "index": 1,
+        "name": "CloseCamera"
+      },
+      {
+        "index": 2,
+        "name": "PIPCamera"
+      },
+      {
+        "index": 3,
+        "name": "SPIPCamera"
+      },
+      {
+        "index": 4,
+        "name": "BackgroundCamera"
+      },
+      {
+        "index": 5,
+        "name": "HoloCamera"
+      }
+    ],
+    "backgrounds": [
+      {
+        "index": 0,
+        "name": "Default Background"
+      },
+      {
+        "index": 1,
+        "name": "TimeOfDay"
+      }
+    ],
+    "wardrobe": {
+      "outfits": [
+        {
+          "id": "d784b7e8-16f4-4564-8c34-c60247f67041",
+          "assetGuid": "4be7838ddda86481392ddf43b0be31fe",
+          "name": "Bot · 1"
+        }
+      ],
+      "hairs": []
+    },
+    "animatorStates": [
+      "Base Layer.Idle",
+      "Base Layer.Phone",
+      "Base Layer.Phone Typing",
+      "Base Layer.Robo_dance",
+      "Base Layer.Tapping_End",
+      "Base Layer.Tapping_Start"
+    ],
+    "animatorParams": [
+      {
+        "id": "typing",
+        "boolParamName": "Typing",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "phone",
+        "boolParamName": "Phone",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "dance",
+        "boolParamName": "Dance",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "dance"
+      }
+    ],
+    "animationConfig": {
+      "bodyDenoiseSteps": 4,
+      "faceDenoiseSteps": 4,
+      "animationStyle": 3,
+      "faceAnimationStyle": 60
+    }
+  },
+  "raccoon": {
+    "sceneId": "Raccoon",
+    "effects": [
+      "phone",
+      "stop_phone",
+      "typing",
+      "stop_typing",
+      "popcorn",
+      "joystick",
+      "stop_joystick",
+      "stop_popcorn"
+    ],
+    "cameras": [
+      {
+        "index": 0,
+        "name": "FollowCamera"
+      },
+      {
+        "index": 1,
+        "name": "CloseCamera"
+      },
+      {
+        "index": 2,
+        "name": "PIPCamera"
+      },
+      {
+        "index": 3,
+        "name": "SPIPCamera"
+      },
+      {
+        "index": 4,
+        "name": "BackgroundCamera"
+      },
+      {
+        "index": 5,
+        "name": "HoloCamera"
+      }
+    ],
+    "backgrounds": [
+      {
+        "index": 0,
+        "name": "Default Background"
+      },
+      {
+        "index": 1,
+        "name": "TimeOfDay"
+      }
+    ],
+    "wardrobe": {
+      "outfits": [
+        {
+          "id": "73c1db54-a41f-4500-805a-86c9c0e44a3c",
+          "assetGuid": "bf4132120db7c7c4c8cd301081449f60",
+          "name": "Raccoon · 1"
+        }
+      ],
+      "hairs": []
+    },
+    "animatorStates": [
+      "Base Layer.Dance",
+      "Base Layer.Idle",
+      "Base Layer.Joystick",
+      "Base Layer.Phone",
+      "Base Layer.Phone Typing",
+      "Base Layer.Popcorn",
+      "Base Layer.Popcorn_Talking",
+      "Base Layer.Tapping_End",
+      "Base Layer.Tapping_Start"
+    ],
+    "animatorParams": [
+      {
+        "id": "phone",
+        "boolParamName": "Phone",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "typing",
+        "boolParamName": "Typing",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "dance",
+        "boolParamName": "Dance",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "dance"
+      },
+      {
+        "id": "popcorn",
+        "boolParamName": "Popcorn",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "dance"
+      },
+      {
+        "id": "speaking",
+        "boolParamName": "Speaking",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "dance"
+      },
+      {
+        "id": "joystick",
+        "boolParamName": "Joystick",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "dance"
+      }
+    ],
+    "animationConfig": {
+      "bodyDenoiseSteps": 4,
+      "faceDenoiseSteps": 4,
+      "animationStyle": 56,
+      "faceAnimationStyle": 56
+    }
+  },
+  "jareth": {
+    "sceneId": "Jareth",
+    "effects": [
+      "phone",
+      "stop_phone",
+      "typing",
+      "stop_typing"
+    ],
+    "cameras": [
+      {
+        "index": 0,
+        "name": "FollowCamera"
+      },
+      {
+        "index": 1,
+        "name": "CloseCamera"
+      },
+      {
+        "index": 2,
+        "name": "PIPCamera"
+      },
+      {
+        "index": 3,
+        "name": "SPIPCamera"
+      },
+      {
+        "index": 4,
+        "name": "BackgroundCamera"
+      },
+      {
+        "index": 5,
+        "name": "HoloCamera"
+      }
+    ],
+    "backgrounds": [
+      {
+        "index": 0,
+        "name": "Default Background"
+      },
+      {
+        "index": 1,
+        "name": "TimeOfDay"
+      }
+    ],
+    "wardrobe": {
+      "outfits": [
+        {
+          "id": "053a604d-795e-436a-9196-76fafd40b2c2",
+          "assetGuid": "f557e7587d932a943baa1a5784943ccf",
+          "name": "Jareth · 1"
+        }
+      ],
+      "hairs": [
+        {
+          "id": "db37f29f-5d84-4780-b895-c21b913ba5e7",
+          "assetGuid": "00175ff0bba7d614a9bf96c894fda94f",
+          "name": "Jareth · 1"
+        }
+      ]
+    },
+    "animatorStates": [
+      "Base Layer.Dance",
+      "Base Layer.Idle",
+      "Base Layer.Phone",
+      "Base Layer.Phone Typing",
+      "Base Layer.Tapping_End",
+      "Base Layer.Tapping_Start"
+    ],
+    "animatorParams": [
+      {
+        "id": "phone",
+        "boolParamName": "Phone",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "typing",
+        "boolParamName": "Typing",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "dance",
+        "boolParamName": "Dance",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "dance"
+      }
+    ],
+    "animationConfig": {
+      "bodyDenoiseSteps": 4,
+      "faceDenoiseSteps": 4,
+      "animationStyle": 60,
+      "faceAnimationStyle": 55
+    }
+  },
+  "ani": {
+    "sceneId": "Ani",
+    "effects": [
+      "phone",
+      "stop_phone",
+      "typing",
+      "stop_typing",
+      "excitement",
+      "frustration",
+      "confused",
+      "angry",
+      "love",
+      "sad",
+      "embarrassed"
+    ],
+    "cameras": [
+      {
+        "index": 0,
+        "name": "FollowCamera"
+      },
+      {
+        "index": 1,
+        "name": "CloseCamera"
+      },
+      {
+        "index": 2,
+        "name": "PIPCamera"
+      },
+      {
+        "index": 3,
+        "name": "SPIPCamera"
+      },
+      {
+        "index": 4,
+        "name": "BackgroundCamera"
+      },
+      {
+        "index": 5,
+        "name": "HoloCamera"
+      }
+    ],
+    "backgrounds": [
+      {
+        "index": 0,
+        "name": "Default Background"
+      },
+      {
+        "index": 1,
+        "name": "TimeOfDay"
+      }
+    ],
+    "wardrobe": {
+      "outfits": [
+        {
+          "id": "85cd645b-fe2b-42b7-8316-bc8a3525c86c",
+          "assetGuid": "1470ecae5d9a9e74f90ea8a418035b14",
+          "name": "Ani · 1"
+        }
+      ],
+      "hairs": [
+        {
+          "id": "dca10832-cae2-4124-b248-efe677e5abeb",
+          "assetGuid": "7d07f0bab9d9b7d4c972a62f3c8d104e",
+          "name": "Ani · 1"
+        }
+      ]
+    },
+    "animatorStates": [
+      "Base Layer.Dance",
+      "Base Layer.Idle",
+      "Base Layer.Phone",
+      "Base Layer.Phone Typing",
+      "Base Layer.Tapping_End",
+      "Base Layer.Tapping_Start"
+    ],
+    "animatorParams": [
+      {
+        "id": "phone",
+        "boolParamName": "Phone",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "typing",
+        "boolParamName": "Typing",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "dance",
+        "boolParamName": "Dance",
+        "autoResetIfStateNotReached": 0,
+        "stateId": "dance"
+      }
+    ],
+    "animationConfig": {
+      "bodyDenoiseSteps": 4,
+      "faceDenoiseSteps": 4,
+      "animationStyle": 76,
+      "faceAnimationStyle": 2
+    }
+  },
+  "mika": {
+    "sceneId": "Mika",
+    "effects": [
+      "excitement",
+      "frustration",
+      "confused",
+      "angry",
+      "love",
+      "embarrassed",
+      "phone",
+      "stop_phone",
+      "typing",
+      "stop_typing"
+    ],
+    "cameras": [
+      {
+        "index": 0,
+        "name": "FollowCamera"
+      },
+      {
+        "index": 1,
+        "name": "CloseCamera"
+      },
+      {
+        "index": 2,
+        "name": "PIPCamera"
+      },
+      {
+        "index": 3,
+        "name": "SPIPCamera"
+      },
+      {
+        "index": 4,
+        "name": "BackgroundCamera"
+      },
+      {
+        "index": 5,
+        "name": "HoloCamera"
+      }
+    ],
+    "backgrounds": [
+      {
+        "index": 0,
+        "name": "Default Background"
+      },
+      {
+        "index": 1,
+        "name": "TimeOfDay"
+      }
+    ],
+    "wardrobe": {
+      "outfits": [
+        {
+          "id": "af396d85-e519-41fd-879a-e9b6b39d5089",
+          "assetGuid": "d4589e37a6d6b764fa08c58cb4204e4d",
+          "name": "Mika · 1"
+        },
+        {
+          "id": "bf0fe709-e465-41fe-a7aa-d7d2d7055ebb",
+          "assetGuid": "6914839e1d50c7b43b59918b99f41b48",
+          "name": "Mika · праздничный"
+        }
+      ],
+      "hairs": [
+        {
+          "id": "787e7305-5d5e-415a-a5d1-dff308ea59a6",
+          "assetGuid": "8eb07759014122d448c16e0c2956b5b8",
+          "name": "Mika · 1"
+        }
+      ]
+    },
+    "animatorStates": [
+      "Base Layer.Dance",
+      "Base Layer.Idle",
+      "Base Layer.Phone",
+      "Base Layer.Phone Typing",
+      "Base Layer.Tapping_End",
+      "Base Layer.Tapping_Start"
+    ],
+    "animatorParams": [
+      {
+        "id": "phone",
+        "boolParamName": "Phone",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "typing",
+        "boolParamName": "Typing",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      },
+      {
+        "id": "dance_bmp_135",
+        "boolParamName": "DanceBmp135",
+        "autoResetIfStateNotReached": 0,
+        "stateId": ""
+      }
+    ],
+    "animationConfig": {
+      "bodyDenoiseSteps": 4,
+      "faceDenoiseSteps": 4,
+      "animationStyle": 31,
+      "faceAnimationStyle": 87
+    }
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "ani_scenes_all_c6152d71f2bb05c22139be77df1e1f11_ec3c07ef.bundle",
+    "url": "https://assets.animates.ai/20260908173050/StandaloneOSX/ani_scenes_all_c6152d71f2bb05c22139be77df1e1f11_ec3c07ef.bundle",
+    "bytes": 43460889,
+    "status": 200,
+    "sha256": "1af4c102e65a209d67fe4b20b8bb6bcf9d349975145479b3d29696b72d545f41"
+  },
+  {
+    "file": "bot_scenes_all_d64a94fe197751646b58e6c2107b749a_833375ff.bundle",
+    "url": "https://assets.animates.ai/20260908173050/StandaloneOSX/bot_scenes_all_d64a94fe197751646b58e6c2107b749a_833375ff.bundle",
+    "bytes": 48547629,
+    "status": 200,
+    "sha256": "c56fbf174dd2c61a6071899e743e46aff717be21d9ef4bf042028c1bcf242997"
+  },
+  {
+    "file": "jareth_scenes_all_5a737955d43ab8174e24b79709763655_1db5a7f5.bundle",
+    "url": "https://assets.animates.ai/20260908173050/StandaloneOSX/jareth_scenes_all_5a737955d43ab8174e24b79709763655_1db5a7f5.bundle",
+    "bytes": 39010946,
+    "status": 200,
+    "sha256": "1b0eca08ab59ff97b61342fc13ac267f64a16aa54cf2391bf747ca943c9db8c1"
+  },
+  {
+    "file": "mika_scenes_all_3a8684865805ce2b90d76e0179404130_97320a9b.bundle",
+    "url": "https://assets.animates.ai/20260908173050/StandaloneOSX/mika_scenes_all_3a8684865805ce2b90d76e0179404130_97320a9b.bundle",
+    "bytes": 31694217,
+    "status": 200,
+    "sha256": "8dace043d480aacb370d8239394577dbed49fffe2df87af225bd3f439589e7e5"
+  },
+  {
+    "file": "mika_assets_all_186be1bf5cade8a34eac0e4eff181808_62524070.bundle",
+    "url": "https://assets.animates.ai/20260908173050/StandaloneOSX/mika_assets_all_186be1bf5cade8a34eac0e4eff181808_62524070.bundle",
+    "bytes": 19143818,
+    "status": 200,
+    "sha256": "60d8fc6a15fe5ced3abbb093dff73c8f563d190c0a3f3265d850d005dab2e532"
+  },
+  {
+    "file": "raccoon_scenes_all_f3317bb8f1392fbfb3ea5888236ae49e_d2b8c339.bundle",
+    "url": "https://assets.animates.ai/20260908173050/StandaloneOSX/raccoon_scenes_all_f3317bb8f1392fbfb3ea5888236ae49e_d2b8c339.bundle",
+    "bytes": 40349401,
+    "status": 200,
+    "sha256": "0115942dfe37cdfcef94183ac681ece550b19377d2f8b266ae314f35077aedc7"
+  }
+]
